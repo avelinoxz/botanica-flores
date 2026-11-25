@@ -1,13 +1,13 @@
 'use strict';
 // Dados exclusivamente fictícios. Tudo fica na memória desta página.
 const products = [
-  {id:1,name:'Rosa',category:'Flores',price:24.90,stock:48,unit:'Arranjo de rosas',image:'rosa'},
-  {id:2,name:'Gérberas',category:'Flores',price:19.90,stock:32,unit:'Maço de gérberas',image:'gerbera'},
-  {id:3,name:'Gypsophila (mosquitinho)',category:'Flores',price:16.90,stock:25,unit:'Maço de flores delicadas',image:'gypsophila'},
-  {id:4,name:'Girassol',category:'Flores',price:14.90,stock:18,unit:'Haste de girassol',image:'girassol'},
-  {id:5,name:'Tulipas',category:'Flores',price:39.90,stock:8,unit:'Maço de tulipas',image:'tulipa'},
-  {id:6,name:'Sementes de flores',category:'Sementes e bulbos',price:8.90,stock:90,unit:'Envelope de sementes',image:'sementes'},
-  {id:7,name:'Terra vegetal',category:'Cultivo',price:22.90,stock:64,unit:'Embalagem de 5 kg',image:'terra'},
+  {id:1,name:'Rosa',category:'Flores',price:200,stock:200,unit:'50 unidades - Arranjo de rosas',image:'rosa'},
+  {id:2,name:'Gérberas',category:'Flores',price:130,stock:200,unit:'50 unidades - Maço de gérberas',image:'gerbera'},
+  {id:3,name:'Gypsophila (mosquitinho)',category:'Flores',price:230,stock:250,unit:'50 unidades - Maço de flores delicadas',image:'gypsophila'},
+  {id:4,name:'Girassol',category:'Flores',price:180,stock:180,unit:'50 unidades - Haste de girassol',image:'girassol'},
+  {id:5,name:'Tulipas',category:'Flores',price:350,stock:80,unit:'50 unidades - Maço de tulipas',image:'tulipa'},
+  {id:6,name:'Sementes de flores',category:'Sementes e bulbos',price:8.90,stock:190,unit:'Envelope de sementes',image:'sementes'},
+  {id:7,name:'Terra vegetal',category:'Cultivo',price:22.90,stock:164,unit:'Embalagem de 5 kg',image:'terra'},
   {id:8,name:'Substratos para cultivo',category:'Cultivo',price:29.90,stock:40,unit:'Embalagem de 5 kg',image:'substrato'},
   {id:9,name:'Adubos e fertilizantes',category:'Cultivo',price:34.90,stock:12,unit:'Embalagem de 1 kg',image:'adubo'},
   {id:10,name:'Bulbos de flores',category:'Sementes e bulbos',price:32.90,stock:35,unit:'Kit com 5 bulbos',image:'bulbos'}

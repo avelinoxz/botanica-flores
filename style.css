@@ -39,3 +39,121 @@
 .export-info{border-top-color:var(--wine)}
 .shipping-info h2,.shipping-info .eyebrow,.shipping-info .info-row small,.shipping-info .info-row>b{color:var(--beige)}
 .shipping-info .info-row strong{color:var(--beige)}
+
+
+
+/* RESPONSIVIDADE MOBILE */
+@media screen and (max-width: 768px) {
+
+    .wrap {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    /* Cabeçalho */
+    .header-inner {
+        min-height: 70px;
+        gap: 8px;
+    }
+
+    .brand img {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* Menu mobile */
+    .menu-toggle {
+        display: flex;
+    }
+
+    .header nav {
+        display: none;
+        flex-direction: column;
+        background-color: #FAF4EA;
+        width: 100%;
+    }
+
+    .header nav.open {
+        display: flex;
+    }
+
+    /* Banner principal */
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero-image {
+        min-height: 280px;
+    }
+
+    /* Catálogo de produtos */
+    .products {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    /* Imagens */
+    img {
+        max-width: 100%;
+    }
+
+    /* Login, cadastro, entrega e exportação */
+    .account-layout,
+    .shipping-layout,
+    .field-row {
+        grid-template-columns: 1fr;
+    }
+
+    /* Formulários */
+    input, select, textarea {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    /* Tabelas de estoque e pedidos */
+    .table-scroll {
+        overflow-x: auto;
+    }
+
+    /* Rodapé */
+    .footer-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* CELULARES MENORES */
+@media screen and (max-width: 480px) {
+
+    .products {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .brand {
+        font-size: 18px;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+    }
+
+    .panel {
+        padding: 15px;
+    }
+
+    .product-content h3 {
+        font-size: 20px;
+    }
+}
