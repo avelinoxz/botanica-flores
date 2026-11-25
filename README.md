@@ -1,4 +1,4 @@
-# Botânica Flores — e-commerce demonstrativo
+# Botânica Flores — e-commerce demonstrativo para teste
 
 Projeto de front-end em HTML5, CSS3 e JavaScript puro, sem dependências externas, servidor ou banco de dados.
 
