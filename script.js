@@ -13,9 +13,9 @@ const products = [
   {id:10,name:'Bulbos de flores',category:'Sementes e bulbos',price:32.90,stock:35,unit:'Kit com 5 bulbos',image:'bulbos'}
 ];
 const orders = [
-  {id:'BF-1003',date:'23/11/2026',items:2,total:49.80,method:'Nacional',status:'Em transporte'},
-  {id:'BF-1002',date:'20/11/2026',items:3,total:89.70,method:'Exportação',status:'Em análise'},
-  {id:'BF-1001',date:'17/11/2026',items:1,total:39.90,method:'Nacional',status:'Entregue'}
+  {id:'BF-1003',date:'23/11/2026',items:12,total:3000,method:'Nacional',status:'Em transporte'},
+  {id:'BF-1002',date:'20/11/2026',items:16,total:3130,method:'Exportação',status:'Em análise'},
+  {id:'BF-1001',date:'17/11/2026',items:10,total:2450,method:'Nacional',status:'Entregue'}
 ];
 const cart = new Map();
 const $ = selector => document.querySelector(selector);
